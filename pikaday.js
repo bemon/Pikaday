@@ -632,7 +632,7 @@
             opts.disableDayFn = (typeof opts.disableDayFn) === 'function' ? opts.disableDayFn : null;
             
             // direct inject momentjs
-            opts.moment = options.moment;
+            opts.moment = opts.moment;
 
             var nom = parseInt(opts.numberOfMonths, 10) || 1;
             opts.numberOfMonths = nom > 4 ? 4 : nom;
